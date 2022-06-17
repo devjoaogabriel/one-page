@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        object-fit: cover;
+        min-width: 500px;
+    }
+    .container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .header-content div {
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 500px) {
+    main {
+        min-width: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-content div img {
+        min-width: 310px;
+        min-height: 216px;
+    }
+    .header-content div.lorem > h1 {
+        font-size: 3.2rem;
+    }
+    .header-content div.lorem > p {
+        font-size: 1.8rem;
+    }
+    footer {
+        min-width: 500px;
+    }
+    .content_colors_class {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
