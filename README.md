@@ -12,7 +12,7 @@
 
 ## 💼 Tecnologias utilizadas
 
-Utilizei apenas essas tecnologias com base em práticar meus conhecimentos:
+Utilizei essas tecnologias com base em práticar meus conhecimentos:
 
 - <img align="center" alt="Joao-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> HTML;
 - <img align="center" alt="Joao-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> CSS;
