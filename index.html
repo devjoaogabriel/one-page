@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="João Gabriel" />
+    <meta http-equiv="content-language" content="pt-br" />
 
     <!-- Import CSS, Icons and Fonts -->
 
@@ -23,8 +25,8 @@
     />
     <title>One Page</title>
   </head>
-  <body>
 
+  <body>
     <!-- Header -->
 
     <header>
@@ -123,33 +125,39 @@
 
     <footer>
       <section class="form_class">
-        <form method="post">
+        <form method="post" class="form-cont">
           <div class="title_form">
             <h1>Entre em contato</h1>
           </div>
           <div class="box_form">
-            <div class="input_user_class">
+            <div class="input user_class">
               <input
                 type="text"
                 name="name"
                 id="name_user"
                 placeholder="Nome"
+                class="class-select-input"
+                autocomplete="off"
               />
             </div>
-            <div class="input_email_class">
+            <div class="input email_class">
               <input
-                type="text"
+                type="email"
                 name="email"
                 id="email_id"
-                placeholder="E-mail"
+                placeholder="seu.email@exemple.com"
+                class="class-select-input"
+                autocomplete="off"
               />
             </div>
-            <div class="input_phone_class">
+            <div class="input phone_class">
               <input
-                type="text"
+                type="number"
                 name="phone"
                 id="phone_id"
-                placeholder="Telefone"
+                placeholder="(xx) xxxxx-xxxx"
+                class="class-select-input"
+                autocomplete="off"
               />
             </div>
             <div class="textarea_class">
@@ -161,9 +169,7 @@
                 placeholder="Mensagem..."
               ></textarea>
             </div>
-            <div class="btn_form">
-              <input type="button" value="Enviar Mensagem" class="button" />
-            </div>
+            <input type="button" value="Enviar Mensagem" class="button" />
           </div>
         </form>
       </section>
