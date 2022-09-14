@@ -21,6 +21,18 @@ body {
     font-size: 1.6rem;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #D7D5FF;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #9d98fd;
+}
+
+
 header {
     height: 25em;
     background: #D7D5FF;
