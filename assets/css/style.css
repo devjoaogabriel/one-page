@@ -127,12 +127,13 @@ footer {
     max-width: 1240px;
 }
 
-#article_class {
+.article_class {
     width: 340px;
     height: 423px;
     background-color: #FFFF;
     box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
     margin: 20px;
+    transition: all ease-in-out 300ms;
 }
 
 .colors_class {
@@ -141,7 +142,7 @@ footer {
     cursor: pointer;
 }
 
-#article_class:hover {
+.article_class:hover {
     box-shadow: 5px 5px 16px rgba(23, 23, 23, 0.205);
 }
 
@@ -197,15 +198,16 @@ footer {
     width: 470px;
 }
 
+.title_form {
+    font: 400 normal 3.2rem/4.0rem 'Merriweather';
+    color: #2B2B2B;
+    margin: 0 0 40px 0 ;
+}
+
 .form-cont {
     display: flex;
     flex-flow: nowrap column;
     justify-content: space-between;
-}
-
-.form-cont .title_form>h1 {
-    font: 600 normal 3.2rem/4rem 'Merriweather';
-    color: #2B2B2B;
 }
 
 .box_form {
@@ -267,7 +269,7 @@ input[type=number]::-webkit-outer-spin-button {
     height: 100%;
 }
 
-.box_form>input[type="button"] {
+#button {
     font: 700 normal 1.6rem/2.4rem 'Lato';
     width: 100%;
     height: 50px;
@@ -294,12 +296,12 @@ input[type=number]::-webkit-outer-spin-button {
     border: 0.1rem solid #2B2B2B;
 }
 
-.box_form>input[type="button"]:hover {
+#button:hover {
     background: rgb(136, 130, 255);
     box-shadow: 0px 0px 16px rgba(146, 146, 146, 0.356);
 }
 
-.box_form>input[type="button"]:focus-within {
+#button:focus-within {
     border: 0.2rem solid #6C63FF;
     background: transparent;
     color: #6663FF;
