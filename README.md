@@ -1,3 +1,7 @@
+## 🚧 Projeto em Manutenção!
+
+
+<!--
 <h1 align="center">
   💻<br> One Page
 </h1>
@@ -25,3 +29,5 @@ Utilizei essas tecnologias com base em práticar meus conhecimentos:
 > - <a href="https://github.com/iuricode">Clique aqui</a> para acessar ao perfil do criador dos desafios no GitHub.
 >
 ---
+
+-->
